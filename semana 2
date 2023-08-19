@@ -1,1 +1,31 @@
 
+No terminal: 
+$ gcc -g hello.c -o hello_g
+$ ls -l hello_g
+-rwxr-xr-x 1 kwall users 6809 Jan 12 15:09 hello_g*
+$ gcc -ggdb hello.c -o hello_ggdb
+$ ls -l hello_ggdb
+-rwxr-xr-x 1 kwall users 354867 Jan 12 15:09
+hello_ggdb*
+
+
+switch(int_var) {
+case 0 ... 2:
+/* your code here */
+break;
+case 3 ... 5:
+/* more code here */
+break;
+default:
+/* default code here */
+}
+
+switch(int_var) {
+case 1:
+case 2:
+/* your code here */
+break;
+case 3:
+case 4:
+case 5:
+/* more code here */
